@@ -10,7 +10,7 @@
 * подключится из контейнера с клиентом к контейнеру с сервером и сделать
 таблицу с парой строк
 sudo docker run -it --rm --network pg-net --name pg-client postgres:15 psql -h pg-server -U postgres
-  > скрин: <img src="pic/1.jpg" align="center" />
+  > скрин: <img src="pic/6.jpg" align="center" />
 * подключится к контейнеру с сервером с ноутбука/компьютера извне инстансов GCP/ЯО/места установки докера
 psql -p 5432 -U postgres -h 51.250.2.146 -d postgres -W
   > скрин: <img src="pic/1.jpg" align="center" />
