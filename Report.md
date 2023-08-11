@@ -5,9 +5,7 @@
 * поставить на нем Docker Engine
 * сделать каталог /var/lib/postgres
 * развернуть контейнер с PostgreSQL 15 смонтировав в него /var/lib/postgresql
-sudo docker network create pg-net
-sudo docker run --name pg-server --network pg-net -e POSTGRES_PASSWORD=postgres -d -p 5432:5432 -v /var/lib/postgres:/var/lib/postgresql/data postgres:15
-  > скрин: <img src="pic/4.jpg" align="center" />
+  > скрин: <img src="pic/4.GPG" align="center" />
 * развернуть контейнер с клиентом postgres
 * подключится из контейнера с клиентом к контейнеру с сервером и сделать
 таблицу с парой строк
