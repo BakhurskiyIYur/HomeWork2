@@ -5,7 +5,7 @@
 * поставить на нем Docker Engine
 * сделать каталог /var/lib/postgres
 * развернуть контейнер с PostgreSQL 15 смонтировав в него /var/lib/postgresql
-  > скрин: <img src="pic/4.GPG" align="center" />
+  > скрин: <img src="pic/4.JPG" align="center" />
 * развернуть контейнер с клиентом postgres
 * подключится из контейнера с клиентом к контейнеру с сервером и сделать
 таблицу с парой строк
