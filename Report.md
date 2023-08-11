@@ -9,13 +9,14 @@
 * развернуть контейнер с клиентом postgres
 * подключится из контейнера с клиентом к контейнеру с сервером и сделать
 таблицу с парой строк
-sudo docker run -it --rm --network pg-net --name pg-client postgres:15 psql -h pg-server -U postgres
-  > скрин: <img src="pic/6.jpg" align="center" />
+  > скрин: <img src="pic/61.JPG" align="center" />
 * подключится к контейнеру с сервером с ноутбука/компьютера извне инстансов GCP/ЯО/места установки докера
 psql -p 5432 -U postgres -h 51.250.2.146 -d postgres -W
-  > скрин: <img src="pic/1.jpg" align="center" />
-* удалить контейнер с сервером, создать его заново
-  > скрин: <img src="pic/1.jpg" align="center" />
+  > скрин: <img src="pic/7.JPG" align="center" />
+* удалить контейнер с сервером
+  > скрин: <img src="pic/8.JPG" align="center" />
+* создать его заново
+  > скрин: <img src="pic/9.JPG" align="center" />
 * подключится снова из контейнера с клиентом к контейнеру с сервером, проверить, что данные остались на месте
-  > скрин: <img src="pic/1.jpg" align="center" />
+  > скрин: <img src="pic/10.JPG" align="center" />
 
